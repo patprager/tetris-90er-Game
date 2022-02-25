@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(12, 19, 19);
+  margin: 0;
+
+  _display: flex;
+}
+
+:root {
+  --zBrick: red;
+  --sBrick: lime;
+  --lBrick: orange;
+  --tBrick: purple;
+  --oBrick: yellow;
+  --ibrick: cyan;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.claim {
+  font-family: "Codystar", cursive;
+  color: aliceblue;
+  font-size: 14px;
+  letter-spacing: 0.25rem;
+
+  margin-top: 2rem;
+}
+
+.headline {
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: aliceblue;
+  text-shadow: 0 0 10px mintcream;
+  font-size: 42px;
+
+  margin-top: 0.005rem;
+}
+
+.canvas {
+  width: 240px;
+  height: 400px;
+  background-color: #0e1616;
+  border: solid 0.25rem rgb(15, 31, 31);
+  _margin: auto;
+}
